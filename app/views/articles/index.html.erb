@@ -27,3 +27,8 @@
     </tr>
  <% end %>
  </table>
+
+ <hr/>
+ <% User.all.each do |user| %>
+   <p><%= user.name %></p>
+ <% end%>
